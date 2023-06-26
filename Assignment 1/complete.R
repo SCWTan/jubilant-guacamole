@@ -5,7 +5,7 @@ complete <- function(directory, id = 1:332){
         ids <- vector()
         nobs <- vector()
         
-        
+
         for (i in id){
                 file_dir <- paste(directory, file_list[i], sep = "")
                 file_data <- read.csv(file_dir)
